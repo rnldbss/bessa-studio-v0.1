@@ -16,7 +16,7 @@
   margin-inline-start: 2rem;
 
   color: var(--color-text-primary-dark);
-  font-size: 2.5rem;
+  font-size: var(--step-2);
 }
 
 .links {

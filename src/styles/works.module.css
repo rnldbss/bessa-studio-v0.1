@@ -16,6 +16,7 @@
 .card {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 
   width: 80%;
 
@@ -23,9 +24,8 @@
 }
 
 .cardText {
-  flex: 1 1 50%;
+  flex: 1 1 336px;
 
-  max-height: 280px;
   padding: 1rem;
 
   border-radius: 15px 0 0 15px;
@@ -41,9 +41,9 @@
 }
 
 .cardImg {
-  flex: 1 1 50%;
+  flex: 1 1 336px;
 
-  min-height: 300px;
+  min-height: 400px;
 
   border-radius: 15px;
   background-color: darkolivegreen;

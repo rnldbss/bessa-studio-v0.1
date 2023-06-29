@@ -9,11 +9,16 @@
 :root {
   --color-primary-dark: #1d1d1f;
   --color-secondary-dark: #f2f7fb;
-  --color-terciary-dark: #09080890;
+  --color-terciary-dark: #09080894;
   --color-text-primary-dark: #ffffff;
   --color-text-secondary-dark: #1a120b;
 
   --font-primary: "Oswald";
+
+  --step-5: clamp(2.8rem, calc(2.01rem + 3.96vw), 5.72rem);
+  --step-2: clamp(1.62rem, calc(1.26rem + 1.78vw), 2.93rem);
+  --step-1: clamp(1.35rem, calc(1.1rem + 1.24vw), 2.03rem);
+  --step-0: clamp(1.13rem, calc(1.13rem + 0vw), 1.13rem);
 }
 
 html {
@@ -45,6 +50,22 @@ span,
 small,
 a {
   font-family: var(--font-primary);
+}
+
+h1 {
+  font-size: var(--step-5);
+}
+
+h2 {
+  font-size: var(--step-2);
+}
+
+h3 {
+  font-size: var(--step-1);
+}
+
+p {
+  font-size: var(--step-0);
 }
 
 .blur {

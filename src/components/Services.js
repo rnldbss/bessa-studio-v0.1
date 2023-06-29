@@ -14,9 +14,32 @@ function Services() {
         <h2>you need a performing website</h2>
       </div>
       <div className={cardWrapper}>
-        <div className={card}></div>
-        <div className={card}></div>
-        <div className={card}></div>
+        <div className={card}>
+          <h3>planing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit
+            rem voluptate labore eligendi optio ducimus vero fugiat illum
+            dolore?
+          </p>
+        </div>
+        <div className={card}>
+          {" "}
+          <h3>development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit
+            rem voluptate labore eligendi optio ducimus vero fugiat illum
+            dolore?
+          </p>
+        </div>
+        <div className={card}>
+          {" "}
+          <h3>launch</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit
+            rem voluptate labore eligendi optio ducimus vero fugiat illum
+            dolore?
+          </p>
+        </div>
       </div>
     </section>
   );

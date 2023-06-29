@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Blob from "./Blob";
 import Footer from "./Footer";
-import { Lenis as ReactLenis, useLenis } from "@studio-freight/react-lenis";
+import { Lenis as ReactLenis } from "@studio-freight/react-lenis";
 
 import "../styles/global.css";
 

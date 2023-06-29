@@ -30,7 +30,7 @@ function Works() {
               category <br /> retreat
             </p>
           </div>
-          <a href="">VISIT EDENSANCTUARY.SO</a>
+          <a href="https://www.plantcopy.com">VISIT EDENSANCTUARY.SO</a>
         </div>
         <div className={cardImg}></div>
       </div>
@@ -54,7 +54,7 @@ function Works() {
               category <br /> portfolio/blog
             </p>
           </div>
-          <a href="">VISIT PLANTCOPY.COM</a>
+          <a href="https://www.plantcopy.com">VISIT PLANTCOPY.COM</a>
         </div>
         <div className={cardImg}></div>
       </div>

@@ -14,5 +14,10 @@ module.exports = {
     description: `Lets build your website`,
     author: `Ronald Bessa, bessa.creative.dev@gmail.com`,
   },
-  plugins: [],
+
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+  ],
 };

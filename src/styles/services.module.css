@@ -18,17 +18,54 @@
   text-align: center;
 }
 
+.servicesTitle > h2 {
+  margin: 0;
+}
+
 .cardWrapper {
   display: flex;
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 350px;
+  flex: 1 1 300px;
+
+  position: relative;
+  max-width: 330px;
   height: 400px;
+  padding: 1rem;
 
   border-radius: 13px;
   background-color: var(--color-primary-dark);
+
+  color: var(--color-text-primary-dark);
+  text-align: center;
+  transition: transform 600ms ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card:after {
+  position: absolute;
+  left: 1px;
+  top: 65%;
+  content: "";
+  z-index: 600;
+
+  height: 100px;
+  width: 1.5px;
+  transition: top 600ms ease, opacity 600ms ease;
+
+  opacity: 0;
+  background: linear-gradient(transparent, #56ab2f, transparent);
+}
+
+.card:hover:after {
+  top: 15%;
+  opacity: 1;
 }

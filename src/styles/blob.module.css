@@ -9,7 +9,7 @@
   aspect-ratio: 1;
   border-radius: 50%;
 
-  background: linear-gradient(to right, #093028, #237a57);
+  background: linear-gradient(to right, #78ffd6, #237a57);
   opacity: 0.8;
   pointer-events: none;
 }
