@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 300 400 500 600 700;
+  src: url("/fonts/Oswald-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+  --color-primary-dark: #1d1d1f;
+  --color-secondary-dark: #f2f7fb;
+  --color-terciary-dark: #09080890;
+  --color-text-primary-dark: #ffffff;
+  --color-text-secondary-dark: #1a120b;
+
+  --font-primary: "Oswald";
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+
+  background-color: var(--color-primary-dark);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+small,
+a {
+  font-family: var(--font-primary);
+}
+
+.blur {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 2;
+  backdrop-filter: blur(12vmax);
+}
+
+.socialIcons {
+  height: 40px;
+  width: 40px;
+
+  fill: var(--color-secondary-dark);
+}

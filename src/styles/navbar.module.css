@@ -1,0 +1,36 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+
+  width: 100vw;
+}
+
+.logo {
+  margin-block: 2rem;
+  margin-inline-start: 2rem;
+
+  color: var(--color-text-primary-dark);
+  font-size: 2.5rem;
+}
+
+.links {
+  display: flex;
+  gap: 2rem;
+
+  margin-block: 2rem;
+  margin-inline-end: 2rem;
+  padding-block: 1rem;
+  padding-inline: 2rem;
+  border-radius: 100px;
+
+  background-color: var(--color-secondary-dark);
+
+  font-weight: 600;
+  color: var(--color-text-secondary-dark);
+}

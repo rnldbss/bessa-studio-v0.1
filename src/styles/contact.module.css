@@ -1,0 +1,10 @@
+.contact {
+  position: relative;
+  z-index: 500;
+
+  min-height: 90vh;
+  margin: 0 2rem;
+
+  border-radius: 35px;
+  background-color: var(--color-secondary-dark);
+}

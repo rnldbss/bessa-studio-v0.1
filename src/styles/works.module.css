@@ -1,0 +1,50 @@
+.works {
+  display: flex;
+  gap: 10vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  z-index: 500;
+
+  margin-inline: 2rem;
+
+  margin: 10rem 0;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+
+  width: 80%;
+
+  color: var(--color-text-primary-dark);
+}
+
+.cardText {
+  flex: 1 1 50%;
+
+  max-height: 280px;
+  padding: 1rem;
+
+  border-radius: 15px 0 0 15px;
+  background-color: var(--color-terciary-dark);
+}
+.cardText > h3 {
+  margin-top: 0;
+}
+
+.cardTextDetails {
+  display: flex;
+  gap: 1rem;
+}
+
+.cardImg {
+  flex: 1 1 50%;
+
+  min-height: 300px;
+
+  border-radius: 15px;
+  background-color: darkolivegreen;
+}

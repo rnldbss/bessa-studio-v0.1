@@ -8,5 +8,11 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  siteMetadata: {
+    title: `Bessa Creative Developer`,
+    siteUrl: `https://www.bessa.dev`,
+    description: `Lets build your website`,
+    author: `Ronald Bessa, bessa.creative.dev@gmail.com`,
+  },
   plugins: [],
-}
+};

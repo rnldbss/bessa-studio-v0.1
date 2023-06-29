@@ -1,0 +1,15 @@
+.blob {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+
+  height: 34vmax;
+  aspect-ratio: 1;
+  border-radius: 50%;
+
+  background: linear-gradient(to right, #093028, #237a57);
+  opacity: 0.8;
+  pointer-events: none;
+}
