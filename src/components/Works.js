@@ -54,7 +54,7 @@ function Works() {
               category <br /> portfolio/blog
             </p>
           </div>
-          <a href="https://www.plantcopy.com">VISIT PLANTCOPY.COM</a>
+          <a href="https://www.plantcopy.com">VISIT PLANTCOPY.COM &#8599;</a>
         </div>
         <div className={cardImg}></div>
       </div>

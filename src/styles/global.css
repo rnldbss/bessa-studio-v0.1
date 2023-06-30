@@ -68,6 +68,11 @@ p {
   font-size: var(--step-0);
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .blur {
   height: 100%;
   width: 100%;

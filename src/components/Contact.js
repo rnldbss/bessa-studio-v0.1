@@ -13,10 +13,12 @@ function Contact() {
   return (
     <section className={contact}>
       <div className={contactEmail}>
-        <h2>Ready?</h2>
+        <h2>Ready? </h2>
         <div className={contactEmailSend}>
           <SendIcon sendIcon={sendIcon} />
-          <h3>hello@bessa.dev</h3>
+          <h3>
+            <a href="mailto:hello@bessa.dev">hello@bessa.dev</a>
+          </h3>
         </div>
       </div>
       <div className={contactImg}>

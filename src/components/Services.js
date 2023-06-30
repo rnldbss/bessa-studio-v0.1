@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import {
@@ -9,8 +9,22 @@ import {
 } from "../styles/services.module.css";
 
 function Services() {
+  gsap.registerPlugin(ScrollTrigger);
+  const servicesRef = useRef();
+
+  useLayoutEffect(() => {
+    gsap.from(servicesRef.current, {
+      scrollTrigger: {
+        trigger: servicesRef.current,
+        start: "top bottom",
+        end: "center center",
+        scrub: 1,
+      },
+      scale: 0.93,
+    });
+  }, []);
   return (
-    <section className={services}>
+    <section className={services} ref={servicesRef}>
       <div className={servicesTitle}>
         <h2>you need a website</h2>
         <h2>you need a performing website</h2>
