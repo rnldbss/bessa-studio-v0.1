@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Services from "../components/Services";
 import Works from "../components/Works";
 import Contact from "../components/Contact";
+import { Seo } from "../components/Seo";
 
 export default function Home() {
   return (
@@ -15,3 +16,4 @@ export default function Home() {
     </Layout>
   );
 }
+export const Head = () => <Seo />;

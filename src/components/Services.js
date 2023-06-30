@@ -1,4 +1,6 @@
 import React from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/all";
 import {
   services,
   servicesTitle,
@@ -23,7 +25,6 @@ function Services() {
           </p>
         </div>
         <div className={card}>
-          {" "}
           <h3>development</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit
@@ -32,7 +33,6 @@ function Services() {
           </p>
         </div>
         <div className={card}>
-          {" "}
           <h3>launch</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit

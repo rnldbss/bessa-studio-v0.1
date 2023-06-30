@@ -12,7 +12,9 @@ module.exports = {
     title: `Bessa Creative Developer`,
     siteUrl: `https://www.bessa.dev`,
     description: `Lets build your website`,
-    author: `Ronald Bessa, bessa.creative.dev@gmail.com`,
+    author: `Ronald Bessa, hello@bessa.dev`,
+    keywords: "web designer, web developer, website",
+    image: "bessa-dev.png",
   },
 
   plugins: [
