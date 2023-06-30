@@ -1,7 +1,6 @@
 .contact {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-between;
 
   position: relative;
   z-index: 500;
@@ -14,11 +13,34 @@
   background-color: var(--color-secondary-dark);
 }
 
-.contact > h2,
-h3 {
+.contactEmail {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactEmail > h2 {
   margin: 0;
 }
 
-.contact > h3 {
+.contactEmailSend {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contactEmailSend > h3 {
+  margin: 0;
   font-size: var(--step-5);
+}
+
+.contactImg {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.sendIcon {
+  fill: #237a57;
+  width: clamp(50px, 8vw, 90px);
+  height: clamp(50px, 8vw, 90px);
 }
