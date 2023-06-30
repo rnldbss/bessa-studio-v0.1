@@ -59,9 +59,7 @@ function Services() {
               website that maximizes user experience and boosts conversions.
             </p>
           </div>
-          <div className={cardImg}>
-            <Spline scene="https://prod.spline.design/I0byPTXI1KPHzd9Y/scene.splinecode" />
-          </div>
+          <div className={cardImg}></div>
         </div>{" "}
         <div className={card}>
           <div className={cardText}>
