@@ -45,11 +45,13 @@
 }
 
 .cardImg {
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  height: 450px;
 
   border-radius: 15px;
   background-color: var(--color-terciary-dark);
+
+  overflow: hidden;
 }
 
 /* .card:hover {

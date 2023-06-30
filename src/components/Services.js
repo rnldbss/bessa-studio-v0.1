@@ -1,6 +1,7 @@
 import React, { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import Spline from "@splinetool/react-spline";
 import {
   services,
   servicesTitle,
@@ -42,7 +43,9 @@ function Services() {
               results, elevating your brand above the competition.
             </p>
           </div>
-          <div className={cardImg}></div>
+          <div className={cardImg}>
+            <Spline scene="https://prod.spline.design/qPr6SkCR0GknjHm9/scene.splinecode" />
+          </div>
         </div>
         <div className={card}>
           <div className={cardText}>
@@ -56,7 +59,9 @@ function Services() {
               website that maximizes user experience and boosts conversions.
             </p>
           </div>
-          <div className={cardImg}></div>
+          <div className={cardImg}>
+            <Spline scene="https://prod.spline.design/I0byPTXI1KPHzd9Y/scene.splinecode" />
+          </div>
         </div>{" "}
         <div className={card}>
           <div className={cardText}>
@@ -70,7 +75,7 @@ function Services() {
               visitors.
             </p>
           </div>
-          <div className={cardImg}></div>
+          <div className={cardImg}> </div>
         </div>
       </div>
     </section>

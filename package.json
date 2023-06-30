@@ -13,6 +13,8 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^2.2.6",
+    "@splinetool/runtime": "^0.9.374",
     "@studio-freight/react-lenis": "^0.0.21",
     "gatsby": "^5.11.0",
     "gatsby-plugin-image": "^3.11.0",
