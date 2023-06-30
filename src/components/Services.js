@@ -6,6 +6,8 @@ import {
   servicesTitle,
   cardWrapper,
   card,
+  cardText,
+  cardImg,
 } from "../styles/services.module.css";
 
 function Services() {
@@ -17,10 +19,9 @@ function Services() {
       scrollTrigger: {
         trigger: servicesRef.current,
         start: "top bottom",
-        end: "center center",
+        end: "center bottom",
         scrub: 1,
       },
-      scale: 0.93,
     });
   }, []);
   return (
@@ -31,28 +32,45 @@ function Services() {
       </div>
       <div className={cardWrapper}>
         <div className={card}>
-          <h3>planing</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit
-            rem voluptate labore eligendi optio ducimus vero fugiat illum
-            dolore?
-          </p>
+          <div className={cardText}>
+            <h3>Custom Website</h3>
+            <p>
+              Your brand deserves to shine in the digital space. Invest in a
+              custom website tailored to your business goals and target
+              audience. I combine creativity, expertise, and attention to detail
+              to create a website that not only looks stunning but also drives
+              results, elevating your brand above the competition.
+            </p>
+          </div>
+          <div className={cardImg}></div>
         </div>
         <div className={card}>
-          <h3>development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit
-            rem voluptate labore eligendi optio ducimus vero fugiat illum
-            dolore?
-          </p>
-        </div>
+          <div className={cardText}>
+            <h3>High-performing Website</h3>
+            <p>
+              In a world of short attention spans, high-performing websites are
+              a must. Capture and engage your audience with blazing fast-loading
+              pages, intuitive navigation, and compelling design. Ensure your
+              website is responsive, seamlessly adapting to any device, and
+              keeping visitors hooked. Drive your business forward with a
+              website that maximizes user experience and boosts conversions.
+            </p>
+          </div>
+          <div className={cardImg}></div>
+        </div>{" "}
         <div className={card}>
-          <h3>launch</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta sit
-            rem voluptate labore eligendi optio ducimus vero fugiat illum
-            dolore?
-          </p>
+          <div className={cardText}>
+            <h3>Easy to Manage</h3>
+            <p>
+              Experience the perfect blend of power and simplicity with high-end
+              CMS (Content Management System). We empower you to effortlessly
+              manage your website with intuitive controls and a user-friendly
+              interface. Focus on your content while we handle the technical
+              complexities, ensuring a seamless experience for both you and your
+              visitors.
+            </p>
+          </div>
+          <div className={cardImg}></div>
         </div>
       </div>
     </section>
