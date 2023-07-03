@@ -7,7 +7,6 @@
   z-index: 500;
 
   min-height: 90vh;
-  margin: 0 2rem;
   padding-block: 4vw;
 
   border-radius: 35px;
@@ -27,13 +26,17 @@
 .cardWrapper {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 6vw;
 }
 
 .card {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: row-reverse;
   gap: 4rem;
+  flex-wrap: wrap;
 }
 
 .card:nth-child(2) {
@@ -50,7 +53,6 @@
 
   border-radius: 15px;
   background-color: var(--color-terciary-dark);
-
   overflow: hidden;
 }
 
@@ -77,3 +79,49 @@
   top: 15%;
   opacity: 1;
 } */
+
+.card:nth-child(3) > .cardImg {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
+
+  position: relative;
+}
+
+.card:nth-child(1) > .cardImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 12% 8%;
+}
+
+.blockImg {
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sliderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  width: 100%;
+  height: 100%;
+
+  border-radius: 15px;
+}
+
+.sliderBall {
+  width: 25px;
+  aspect-ratio: 1;
+  background-color: aquamarine;
+  border-radius: 100%;
+
+  position: relative;
+}

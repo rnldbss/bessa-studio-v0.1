@@ -88,3 +88,18 @@ a {
 
   fill: var(--color-secondary-dark);
 }
+
+.light {
+  transform: translateY(-100%);
+}
+
+.block2 {
+  transform: translateY(-100%);
+}
+.block3 {
+  transform: translateY(-30%);
+}
+
+.block4 {
+  transform: translateX(-20px);
+}
